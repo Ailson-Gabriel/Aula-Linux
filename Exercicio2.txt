@@ -1,5 +1,5 @@
 podman pull debian
-podman run -it debian
+podman run -dt debian
+podman exec -it NOME_DO_CONTAINER bash
 root@123456789000:/# apt update
-root@123456789000:/# apt search python
 root@123456789000:/# apt install python3.11
