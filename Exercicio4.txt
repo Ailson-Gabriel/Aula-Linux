@@ -1,0 +1,5 @@
+$ podman pull fedora
+$ podman run -it fedora
+root@123456789000:/# dnf update
+root@123456789000:/# dnf install python3.11
+root@123456789000:/# dnf install gallery-dl
