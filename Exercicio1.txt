@@ -1,0 +1,4 @@
+podman pull debian
+podman run -it debian
+/# apt update
+/# apt install neofetch
